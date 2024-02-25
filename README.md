@@ -1,5 +1,5 @@
 # react-curso
-Curso de react
+Curso de react por Fernando Herrera
 
 ## Deploy proyectos
 
