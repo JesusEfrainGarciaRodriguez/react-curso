@@ -1,10 +1,10 @@
 
 import AddCategory from "./AddCategory";
 import GifItem from "./GifItem";
-import GridGif from "./GridGif";
+import GifGrid from "./GifGrid";
 
 export {
     AddCategory,
     GifItem,
-    GridGif
+    GifGrid
 }
