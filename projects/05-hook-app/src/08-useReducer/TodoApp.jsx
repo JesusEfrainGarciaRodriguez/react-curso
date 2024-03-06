@@ -8,7 +8,7 @@ const TodoApp = () => {
     return (
       <>
         <h1>
-          TodoApp: {todos.length}, <small>pendientes: {todos.filter(todo => todo.done).length}</small>
+          TodoApp: {todos.length}, <small>pendientes: {todos.filter(todo => !todo.done).length}</small>
         </h1>
         <hr />
 
