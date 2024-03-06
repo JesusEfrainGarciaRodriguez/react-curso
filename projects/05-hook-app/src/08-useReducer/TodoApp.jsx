@@ -3,12 +3,12 @@ import TodoAdd from "./TodoAdd";
 import useTodo from "../hooks/useTodo";
 
 const TodoApp = () => {
-    const { todos, handleNewTodo, handleDeleteTodo, handleToggleTodo } = useTodo();
+    const { todos, todosCount, pendingTodosCount, handleNewTodo, handleDeleteTodo, handleToggleTodo } = useTodo();
 
     return (
       <>
         <h1>
-          TodoApp: {todos.length}, <small>pendientes: {todos.filter(todo => !todo.done).length}</small>
+          TodoApp: {todosCount}, <small>pendientes: {pendingTodosCount}</small>
         </h1>
         <hr />
 
