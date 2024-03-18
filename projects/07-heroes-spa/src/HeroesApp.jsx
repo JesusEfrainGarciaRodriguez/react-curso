@@ -1,9 +1,5 @@
-const HeroesApp = () => {
-  return (
-    <>
-        <h1>HeroesApp</h1>
-    </>
-  )
-}
+import AppRouter from "./router/AppRouter"
 
-export default HeroesApp
+export const HeroesApp = () => {
+  return <AppRouter />
+}
