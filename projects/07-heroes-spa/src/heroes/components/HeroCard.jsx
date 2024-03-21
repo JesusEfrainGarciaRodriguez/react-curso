@@ -22,7 +22,7 @@ export const HeroCard = ({
   /* const charectersByHero = characters.split(", ").filter(hero => hero !== alter_ego).join(", ") */
 
   return (
-    <article className="col">
+    <article className="col animate__animated animate__fadeIn">
       <div className="card">
 
         <div className="row no-gutters">
